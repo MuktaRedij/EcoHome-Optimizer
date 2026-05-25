@@ -1,0 +1,26 @@
+{
+  "test_timestamp": "2026-04-20 23:40:32",
+  "eco_on": {
+    "cost": 30.8,
+    "co2_reduction": 0.796,
+    "co2_total": 2.108,
+    "runtime_seconds": 0.1512446403503418
+  },
+  "eco_off": {
+    "cost": 32.3,
+    "co2_reduction": 0.544,
+    "co2_total": 2.108,
+    "runtime_seconds": 0.12327861785888672
+  },
+  "comparison": {
+    "cost_difference": 1.4999999999999964,
+    "cost_difference_percent": 4.870129870129858,
+    "co2_reduction_difference": -0.252,
+    "co2_reduction_difference_percent": -31.65829145728643
+  },
+  "validation": {
+    "checks_passed": 5,
+    "checks_total": 5,
+    "values_differ": true
+  }
+}

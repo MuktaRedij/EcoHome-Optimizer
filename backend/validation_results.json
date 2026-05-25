@@ -1,0 +1,87 @@
+{
+  "Case A (Low Load)": {
+    "status": "SUCCESS",
+    "metrics": {
+      "predicted_load": 0.262,
+      "predicted_peak_load": 0.0,
+      "initial_cost": 35.17,
+      "final_cost": 30.8,
+      "energy_saved_percent": 12.43,
+      "co2_reduction": 0.908,
+      "co2_reduction_percent": 34.24,
+      "peak_usage_reduction": 0.0,
+      "fuzzy_alignment_score": 1.0,
+      "generations": 30,
+      "schedule": [
+        {
+          "appliance": "Washing Machine",
+          "start_hour": 5,
+          "start_time": "05:00",
+          "end_time": "07:00",
+          "duration_hours": 1.5
+        },
+        {
+          "appliance": "Dishwasher",
+          "start_hour": 23,
+          "start_time": "23:00",
+          "end_time": "01:00",
+          "duration_hours": 2.0
+        }
+      ],
+      "optimization_efficiency": 12.42536252487916
+    },
+    "validation_checks": {
+      "Fuzzy Sensitivity": true,
+      "Peak Behavior": true,
+      "GA Optimization": true,
+      "Load-Driven Optimization": true,
+      "Schedule Differentiation": true
+    }
+  },
+  "Case B (High Load)": {
+    "status": "SUCCESS",
+    "metrics": {
+      "predicted_load": 0.479,
+      "predicted_peak_load": 1.596,
+      "initial_cost": 77.17,
+      "final_cost": 69.2,
+      "energy_saved_percent": 10.33,
+      "co2_reduction": 1.304,
+      "co2_reduction_percent": 26.12,
+      "peak_usage_reduction": 0.0,
+      "fuzzy_alignment_score": 0.4,
+      "generations": 30,
+      "schedule": [
+        {
+          "appliance": "Washing Machine",
+          "start_hour": 7,
+          "start_time": "07:00",
+          "end_time": "09:00",
+          "duration_hours": 1.5
+        },
+        {
+          "appliance": "Dishwasher",
+          "start_hour": 9,
+          "start_time": "09:00",
+          "end_time": "11:00",
+          "duration_hours": 2.0
+        },
+        {
+          "appliance": "Heater",
+          "start_hour": 23,
+          "start_time": "23:00",
+          "end_time": "02:00",
+          "duration_hours": 3.0
+        }
+      ],
+      "optimization_efficiency": 10.327847609174547
+    },
+    "validation_checks": {
+      "Fuzzy Sensitivity": true,
+      "Peak Behavior": true,
+      "GA Optimization": true,
+      "Load-Driven Optimization": true,
+      "Schedule Differentiation": true
+    }
+  }
+}
