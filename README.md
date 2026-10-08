@@ -95,7 +95,7 @@ An AI-powered intelligent home energy optimization platform that uses **Fuzzy Lo
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ecohome-optimizer.git
+git clone https://github.com/MuktaRedij/ecohome-optimizer.git
 cd ecohome-optimizer
 ```
 
